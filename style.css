@@ -1,0 +1,20 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.wrapper
+{
+    width:450px;
+}
+
+.jumbotron{
+    width: 50%;
+}
+
+.jumbotron__header{
+    font-family: Spartan;
+    font-weight: 700;
+}
+
