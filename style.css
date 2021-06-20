@@ -1,20 +1,30 @@
 body {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
-.wrapper
-{
-    width:450px;
-}
-
-.jumbotron{
-    width: 50%;
-}
-
-.jumbotron__header{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: lightgray;
     font-family: Spartan;
-    font-weight: 700;
 }
 
+.wrapper {
+    max-width: 650px;
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.jumbotron {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.jumbotron__header {
+    font-size: 32px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
